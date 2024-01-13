@@ -1,0 +1,166 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+
+https://coolors.co/9b8579-71b6c0-697a73-d1d9d9-b4c0c1 - WINDSOR Palette 
+
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding-top: 0;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem orange);
+}
+
+
+
+/* Hero Section Styling */
+
+#hero-title {
+    margin: 0;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    background-color:#9B8579;
+    cursor: pointer;
+    transition: 0.25ms;
+    
+}
+
+#hero-title:hover {
+    background-color: orange;
+    color: black;
+}
+
+#hero-description {
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(29, 53, 87, 1);
+    text-shadow: 3px 3px 0 black;
+
+}
+
+#hero-section {
+    background-image: url(images/windsor-hero-img.jpg);
+    background-size: cover;
+
+    width: 100vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Activities Section Styling */
+
+#activities-section {
+    background-image: linear-gradient(#D1D9D9, #9B8579);
+    width: 100vw;
+    padding-bottom: 30px;
+    
+}
+
+#top-foods {
+    margin-top: 0;
+    padding: 50px;
+
+
+}
+
+#food-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+/* Fit + Square dimnensions - makes image round*/
+
+.food {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 0 0.75rem orange);
+}
+
+
+#food-description {
+    background-color: rgba(29, 53, 87, 1);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.25ms;
+    cursor: pointer;
+}
+
+#food-description:hover {
+    background-color: black;
+    color: orange;
+}
+
+
+/* Guide Styling */
+
+#guide-section {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #71B6C0;
+    width: 800px;
+    padding: 30px;
+    border-radius: 5px;
+    border-bottom: 8px solid #9B8579;
+    
+  
+    
+}
+
+
+.guide-info {
+    padding: 40px;
+    margin-top: 20px;
+}
+
+#guide {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Footer Styling */
+
+footer {
+    background-color: #697A73;
+    width: 100vw;
+    color: white;
+   
+}
+
+footer:hover {
+    background-color: rgba(29, 53, 87, 1);
+}
+
+#copyright {
+    padding: 15px;
+    margin: 0;
+}
